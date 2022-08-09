@@ -5,8 +5,10 @@ Exploratory Data Analysis for loan defaulter in Lending Club.
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+* [Approach](#Approach)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
+
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -24,11 +26,22 @@ Identification of such applicants using EDA is the aim of this case study. In ot
 factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  
 The company can utilize this knowledge for its portfolio and risk assessment. 
 
+## Approach
+- Understanding each and every Variable.
+- Identifying dependent and independent variable.
+- Checking for the event rates.
+- Checking for the data types of all the variables and correcting all the data types and format.
+- Univariate Analysis :- Data types, Missing Rate, Histogram, Box Plot, Describe of python.
+- Bivariate Analysis :- One way Anova and chi square test with dependent variable.
+- Summarizing results of univariate and bivariate analysis.
+- Creating business logic variables.
+- Using Information value and woe for identifying most important variable.
+- Plotting line chart of important variable and drawing conclusions.
 
 ## Conclusions
-- Two ways we can reduce the risk.
+## Two ways we can reduce the risk.
 
-- By focusing on customer at time of collection.
+### By focusing on customer at time of collection.
 
 - Int_Rate :- Need to focus on collection and put more effort on customer having higher interest rate.
 - Grade :- Grade G have higher chances of default need to focus on these type of customer more.
@@ -39,7 +52,7 @@ The company can utilize this knowledge for its portfolio and risk assessment. 
 
 
 
-- By Changing Acquisition Score model and including below variables.
+### By Changing Acquisition Score model and including below variables.
 
 - revol_util :- Customer with higher revol_util tends to do more default.
 - purpose :- Purpose as small business customer tends to default more.
