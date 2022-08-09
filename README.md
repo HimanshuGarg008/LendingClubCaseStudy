@@ -1,4 +1,4 @@
-# Project Name
+# Lending Club Case Study
 EDA for defaulter in lending club.
 
 
